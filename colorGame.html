@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Game</title>
+    <link rel="stylesheet" href="colorGame.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="head">
+        <h1>The Great RGB Game</h1>
+        <h2>Guess the color with the value <span id="color">RGB</span></h2>
+    </div>
+    <div class="nav">
+        <span style="margin-left: 10%;"><button id="retry" onclick="window.location.href= 'colorGame.html'">New Colors</button></span>
+        <span id="cw">Pick a Color Block</span>
+        <span>
+            <button id="mode">Easy</button>
+            <button id="mode" class="selected">Hard</button>
+        </span>
+    </div>
+    <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+
+    <script src="colorGame.js"></script>
+</body>
+</html>

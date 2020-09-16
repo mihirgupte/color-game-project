@@ -1,0 +1,77 @@
+body{
+    background-color: #232323;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.square{
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.6%;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+}
+
+#container{
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+h1,h2{
+    text-align: center;
+    color: white;    
+}
+
+h1{
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 0%;
+}
+
+h2{
+    font-weight: 700;
+}
+
+.head{
+    background-color: teal;
+    padding-top : 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.nav{
+    background-color: thistle;
+    color: black;
+    margin-bottom: 2%;
+    padding : 0%;
+    text-align: center;
+    float: 50%;
+}
+
+.nav span{
+    margin-right: 10%;
+}
+
+.selected{
+    background-color: teal;
+}
+
+button, #cw{
+    border : none;
+    background : none;
+    font-size: 135%;
+    height: 100%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    transition : all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    outline: none;
+}
+
+button:hover{
+    color: thistle;
+    background-color: teal;
+}
